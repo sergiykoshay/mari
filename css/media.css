@@ -1,0 +1,98 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+  body {
+    padding-bottom: 0; }
+  .ancor__first {
+    position: relative;
+    top: -20px; }
+  .heading {
+    font-size: 2em;
+    line-height: 1.5em;
+    padding-top: 1.5em; }
+    .heading--first {
+      padding-top: 0; }
+  .parallax-window {
+    min-height: 180px; }
+  .card {
+    padding: .5em;
+    margin: .5em 0;
+    height: auto;
+    min-height: 0; }
+    .card--heading {
+      font-size: 1.5em;
+      margin: 1em 0; }
+    .card--body {
+      margin: 0; }
+  .portfolio {
+    height: 87px;
+    font-size: .8em; }
+    .portfolio--title {
+      line-height: 2.2em; }
+  .customer--avatar {
+    width: 60px;
+    height: 60px; }
+  footer {
+    position: static; } }
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */ }
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */ }
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+  .phone_form {
+    top: 8%; }
+  .btn {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.9rem; } }
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */ }
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */ }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */ }
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */ }
+
+/* iPhone retina ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+  .heading {
+    font-size: 2em;
+    line-height: 1.5em;
+    padding-top: 1.5em; }
+    .heading--first {
+      padding-top: 0; }
+  .parallax-window {
+    min-height: 180px; }
+  .card {
+    padding: .5em;
+    margin: .5em 0;
+    height: auto;
+    min-height: 0; }
+    .card--heading {
+      font-size: 1.5em;
+      margin: 1em 0; }
+    .card--body {
+      margin: 0; } }
+
+/* iPhone retina landscape----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape), only screen and (min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  .portfolio {
+    height: 170px; }
+    .portfolio--title {
+      line-height: 170px; } }

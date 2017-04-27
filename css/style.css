@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css?family=Marmelad|Montserrat");
+.navbar-mari {
+  background-color: #3f4c6b;
+  background: linear-gradient(to bottom, #3f4c6b 0%, #3f4c6b 100%); }
+
+.navbar-nav > li > a.h-menu-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  width: inherit;
+  color: #fff;
+  border-left: 1px solid #fff; }
+  .navbar-nav > li > a.h-menu-link:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: #e6e6e6;
+    border-left: 1px solid #ccc; }
+
+.btn-mari {
+  background-color: #232322;
+  border: 1px solid #888; }
+
+.icon-bar {
+  background-color: #cdcdcc; }
+
+.logo {
+  color: #fff;
+  margin: -6px; }
+
+footer {
+  min-height: 50px;
+  padding: .4em;
+  position: fixed;
+  z-index: 15;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, #3f4c6b 0%, #3f4c6b 100%); }
+
+.copy {
+  color: red; }
+
+.social-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 6px auto;
+  background: transparent; }
+  .social-button li {
+    list-style: none;
+    padding: 0 .5em; }
+    .social-button li a i {
+      color: #fff;
+      text-shadow: 2px 2px 4px #9a9696; }
+    .social-button li a:hover i {
+      text-shadow: 2px 2px 6px #9a9696; }
+
+.fb-icon:hover {
+  color: #3b5998; }
+
+.vk-icon:hover {
+  color: #45668e; }
+
+.instagram-icon:hover {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.phone-icon:hover {
+  color: #1f1; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px; }
+
+body {
+  background: #f5f6f4;
+  padding: 50px 0 70px 0; }
+
+img {
+  width: 100%;
+  height: auto\9; }
+
+.ancor {
+  position: relative;
+  top: 1.8em; }
+
+.heading {
+  position: relative;
+  top: 103px;
+  z-index: 12;
+  height: 0;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Marmelad', sans-serif;
+  color: #fff;
+  font-size: 3em;
+  text-decoration: underline;
+  text-shadow: 3px 3px 6px #9e98d2; }
+  .heading--first {
+    padding: 1em 0;
+    margin-bottom: 1em;
+    color: #3F4C6B;
+    position: static; }
+
+.sub-heading {
+  font-family: 'Marmelad', sans-serif;
+  text-align: center; }
+
+.text-box {
+  margin: .5em;
+  text-indent: 1em; }
+  .text-box--left {
+    text-align: right; }
+  .text-box--right {
+    text-align: left; }
+  .text-box ul li {
+    list-style: none; }
+    .text-box ul li:after {
+      content: "";
+      display: block;
+      position: relative;
+      left: 0;
+      top: 4px;
+      width: 4px;
+      height: 4px;
+      border-radius: 2px;
+      border: 1px solid #111;
+      top: -15px;
+      right: 10px; }
+
+.image-box {
+  margin-top: 1.5em; }
+  .image-box img {
+    width: 100%;
+    height: auto; }
+
+.avatar {
+  margin: 1.5em;
+  border: 2px solid #432423; }
+  .avatar img {
+    width: 100%;
+    height: auto; }
+
+.parallax-window {
+  min-height: 200px;
+  background: transparent;
+  margin: 1.5em 0; }
+
+.background-cover {
+  background: no-repeat center center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
+
+.parallax {
+  position: relative;
+  background: transparent;
+  overflow-y: hidden;
+  height: 200px;
+  margin-bottom: 1.5em; }
+  .parallax-bg {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    transform: translate(0px, -50px);
+    backface-visibility: hidden; }
+    .parallax-bg__cover-1 {
+      background-image: url("../images/parallax/parallax-1.jpg"); }
+    .parallax-bg__cover-2 {
+      background-image: url("../images/parallax/parallax-2.jpg"); }
+    .parallax-bg__cover-3 {
+      background-image: url("../images/parallax/parallax-3.jpg"); }
+    .parallax-bg__cover-4 {
+      background-image: url("../images/parallax/parallax-4.jpg"); }
+
+.card-box {
+  height: 100%; }
+
+.card {
+  min-height: 450px;
+  height: 100%;
+  background: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, 0) 0%, #e8f1ff 100%);
+  padding: 1.5em;
+  border-radius: 12px;
+  margin: 1.5em 0;
+  border: 6px solid #EAEAEA;
+  box-shadow: 0 0 4px #F2F2F2; }
+  .card--heading {
+    font-family: 'Marmelad', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em; }
+  .card--body {
+    margin: 0 .5em; }
+    .card--body ul li {
+      list-style: circle;
+      font-size: .8em; }
+
+.menu--link {
+  text-align: center;
+  padding: 4px 32px; }
+
+.menu--link:hover {
+  border-radius: 12px; }
+
+.container--color {
+  background-color: #b4ebed;
+  z-index: 12; }
+
+.portfolio {
+  overflow: hidden;
+  cursor: pointer;
+  height: 175px;
+  margin: .2em 0;
+  padding: .2em; }
+  .portfolio--title {
+    position: relative;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+    height: 10em;
+    background-color: rgba(100, 100, 100, 0.4);
+    text-shadow: 1px 1px 2px #fff;
+    color: #DCF7F2;
+    line-height: 195px;
+    top: 0;
+    transition: top 1s ease-out 0.2s; }
+    .portfolio--title__visible {
+      top: -125%; }
+  .portfolio--picture {
+    width: 100%;
+    max-height: 400px; }
+
+.customer {
+  border: 1px solid #ddd;
+  height: 100%; }
+  .customer--avatar {
+    float: left;
+    margin: .5em 1em;
+    width: 120px;
+    height: 120px; }
+    .customer--avatar img {
+      border-radius: 50%;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      max-height: 100%;
+      max-width: 100%; }
+  .customer--name {
+    font-size: 1.2em; }
+  .customer--post {
+    font-style: italic;
+    padding-bottom: 1em; }
+  .customer--comment {
+    text-indent: 1em;
+    line-height: 1.5em;
+    font-size: 1em; }
+  .customer .quote {
+    position: absolute;
+    z-index: -1;
+    color: #f9f9f9;
+    text-shadow: 2px 2px 2px #999; }
+
+.carousel-cell {
+  margin: 0 0 0 15px;
+  overflow: hidden; }
+
+.carousel-cell img {
+  display: block;
+  height: 400px;
+  width: 600px; }
+
+@media screen and (min-width: 768px) {
+  .carousel-cell img {
+    height: 400px; } }
