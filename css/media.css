@@ -15,15 +15,18 @@
   .parallax-window {
     min-height: 180px; }
   .card {
-    padding: .5em;
-    margin: .5em 0;
+    padding: 0;
+    margin: 0;
     height: auto;
     min-height: 0; }
     .card--heading {
       font-size: 1.5em;
-      margin: 1em 0; }
+      margin: 0; }
     .card--body {
       margin: 0; }
+  .cam-bg {
+    background-size: 240px 192px;
+    background-position: 0 0; }
   .portfolio {
     height: 87px;
     font-size: .8em; }
@@ -80,15 +83,17 @@
   .parallax-window {
     min-height: 180px; }
   .card {
-    padding: .5em;
-    margin: .5em 0;
+    padding: 0;
+    margin: 0;
     height: auto;
     min-height: 0; }
     .card--heading {
       font-size: 1.5em;
-      margin: 1em 0; }
+      margin: 0; }
     .card--body {
-      margin: 0; } }
+      margin: 0; }
+  .customer {
+    min-height: 1px; } }
 
 /* iPhone retina landscape----------- */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape), only screen and (min-device-pixel-ratio: 1.5) and (orientation: landscape) {

@@ -1,5 +1,7 @@
- vw = $(window).width();
-  bp = 768 //break point
+ 
+ 
+  var vw = $(window).width();
+  var bp = 768 //break point
   if(vw<bp){
     $('details').removeAttr('open').attr('close')
   }
